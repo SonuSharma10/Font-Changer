@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Font ChangerS</title>
+    <!-- <link rel="stylesheet" href="styles (1).css"> -->
+    <style>
+    .Input-box {
+      position: relative;
+      -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 38%);
+      -moz-box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
+      border-radius: 5px;
+      background: linear-gradient(130deg,#ff7a18,#afe02d 41.87%,#319197 76.85%);
+      padding: 5px;
+      width: 100%;
+      box-sizing: border-box;
+      }
+      #projrctfonts-text {
+      resize: none;
+      border: none;
+      outline: none;
+      width: 98%;
+      height: 55px;
+      padding: 1%;
+      font-size: 1.25em;
+      text-align: center;
+      font-family: open sans, sans-serif;
+      }
+      .projrctfonts-text .clear {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      color: #de0707;
+      font-size: 20px;
+      padding: 7px 20px;
+      line-height: 1.5;
+      background: transparent;
+      border: none;
+      z-index: 99999;
+      border-radius: 3px;
+      cursor: pointer;
+      outline: none;
+       }
+    
+       .RGITfonts{
+      position: relative;
+      }
+      .RGITfonts p {
+      background: #fff;
+      font-family: Arial Unicode MS, lucida grande, tahoma, verdana,arial, sans-serif;
+      margin-bottom: 10px;
+      border-radius: 7px;
+      cursor: pointer;
+      width: 100%;
+      margin: 8px 0;
+      display: block;
+      border: 1px solid #ccc;
+      box-shadow: inset 0 1px 3px #ddd;
+      border-radius: 4px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-size: 22px;
+      }
+      .RGITfonts button{
+      background: #fff;
+      border:1px solid #319197;
+      border-radius: 3px;
+      color: #319197;
+      position:absolute;
+      padding:8px 10px;
+      top:16px;
+      right:10px;
+      }
+    
+      .RGITfonts span {
+      color: #c5c5c5;
+      font-size: 11px;
+      text-transform: uppercase;
+      }
+      p.coped{
+      position: fixed;
+      width: 260px;
+      right: 0;
+      top: 50%;
+      background: #319197;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 3px 0 0 3px;
+      z-index: 99999;
+      box-shadow:0px 8px 4px 0 rgba(0,0,0,.21);
+      }
+    
+    
+    p.copied span {
+    float: left;
+    width: 100%;
+    }
+    p.copied text {
+    background: transparent;
+    color: #fff;
+    border: none;
+    width: 100%;
+    }
+    
+    #load-more {
+    font-size: 20px;
+    padding: 12px 35px;
+    border: 2px solid #319197;
+    color: #319197;
+    margin: 10px 0 5px 0;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    outline: none;
+    border-radius: 3px;
+    }
+    
+    #load-more:hover{
+    background: #319197;
+    color: #fff;
+    }
+    .copyright-area {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: #777;
+    }
+    div > div > h1 {
+      text-align: center;
+    }
+    .container {
+      background: linear-gradient(to left, #eeeeee, #A3C7D6);
+    }
+    </style>
+
+
+     <!-- yaha goggle fonts ki link paste kar de -->
+    
+  </head>
+  <body>
+
+    
+<!-- /************************input section*************************/ -->
+    <div class="inputText">
+    <div class="fontbox">
+    <div class="Input-box"><textarea id="inputText" placeholder="Type or paste your text here :)"></textarea> <button class="clear">X</button>
+    </div>
+    </div>
+    <button  class="btn" type="button" onclick="change_text()">submit</button>
+</div>
+<div class="Flexbox-container">
+
+<!-- style aur font names bhi ate vaha yaha dal de and done -->
+
+
+<body>
+<!--input section start-->
+
+
+<!--input section end-->
+
+<!--startmainfonts start -->
+
+  
+</div>
+<div class="container">
+<div class="startmainfonts">
+<div class="fontlist">
+  <h1>Font Changer</h1>
+  <div class="projrctfonts-text">
+      <div class="fontbox">
+      <div class="input-box"><textarea id="projrctfonts-text" placeholder="Type or paste your text here :)"></textarea> <button class="clear">X</button>
+      </div>
+      </div>
+      </div>
+<h2>Common Fonts</h2>
+<div class="RGITfonts"><span>Old English</span>
+<p class="oldEnglishCharMap">Old english text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Medieval</span>
+<p class="medievalCharMap">Medieval english text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Cursive</span>
+<p class="cursiveCharMap">Cursive text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Scriptify</span>
+<p class="scriptify">Scriptify type fancy text loading...</p>
+</div>
+<div class="RGITfonts"><span>Double Struck</span>
+<p class="doubleStruckCharMap">Double struck text loading...</p>
+</div>
+<div class="RGITfonts"><span>Italic</span>
+<p class="boldItalicCharMap">Italic type text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Bold Italic</span>
+
+<p class="boldItalicCharMap">Bold Italic type text generator loading.../p&gt;</p>
+</div>
+<div class="RGITfonts"><span>Mono Space</span>
+<p class="monospaceCharMap">Mono space type text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Lunitools bubbles</span>
+<p class="lunitoolsbubbles">Lunitools bubbles type text loading...</p>
+</div>
+<div class="RGITfonts"><span>Inverted Squares</span>
+<p class="invertedSquaresCharMap">Inverted squares type text loading...</p>
+</div>
+<div class="RGITfonts"><span>Fat Text</span>
+<p class="result result-s7">FAT Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>WideText</span>
+<p class="wideTextCharMap">Wide type text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Bold</span>
+<p class="boldCharMap">Bold text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Luni Tools Flip</span>
+<p class="lunitoolsflipencode">Flip text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Reverse Mirror</span>
+<p class="result result-54">Reverse mirror type text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Squares</span>
+<p class="squares CharMap">Squares text generator loading...</p>
+</div>
+<div class="RGITfonts"><span>Luni Tools Mirror</span>
+<p class="lunitoolsmirrorencode">Mirror text generator loading...</p>
+</div>
+<h2>Lines Text Fonts</h2>
+<div class="RGITfonts"><span>Strike Through</span>
+<p class="strikeThrough">Strike through Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Tilde Strike Through</span>
+<p class="tildeStrikeThrough">Tilde strike through Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Slash Through</span>
+<p class="result result-s29">Slash through Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Slash Through</span>
+<p class="slashThrough">Slash through 2 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Underline</span>
+<p class="underline">Underline Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Double Underline</span>
+<p class="doubleUnderline">Double underline Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Arrow Underline</span>
+<p class="result result-s30">Arrow underline Text Fonts...</p>
+</div>
+<h2>Squiggle Text Fonts</h2>
+<div class="RGITfonts"><span>Squiggle</span>
+<p class="squiggleCharMap">Squiggle 1 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle2</span>
+<p class="squiggle2CharMap">Squiggle 2 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle3</span>
+<p class="squiggle3CharMap">Squiggle 3 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle4</span>
+<p class="squiggle4CharMap">Squiggle 4 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle5</span>
+<p class="squiggle5CharMap">Squiggle 5 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle6</span>
+<p class="squiggle6CharMap">Squiggle 6 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle7</span>
+<p class="result result-s1">Squiggle 7 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle8</span>
+<p class="result result-s3">Squiggle 8 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle9</span>
+<p class="result result-s14">Squiggle 9 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle10</span>
+<p class="result result-s15">Squiggle 10 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle11</span>
+<p class="result result-s17">Squiggle 11 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle14</span>
+<p class="result result-s6">Squiggle 12 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle15</span>
+<p class="result result-s8">Squiggle 13 Text Fonts...</p>
+</div>
+<div class="RGITfonts"><span>Squiggle16</span>
+<p class="result result-s9">Squiggle 14 Text Fonts...</p>
+</div>
+<h2>Weird Stylish Name Maker</h2>
+
+<div class="RGITfonts"><span>Fire Work</span> <p class="firework">Firework Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Bat Man</span>
+<p class="result result-s31">Bat man Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Bat Man</span> <p class="result result-s31">Bat man Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Top Border</span>
+<p class="result result-s22">Top border Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Bottom Border</span>
+<p class="result result-s23">Bottom border Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Bottom Star</span>
+<p class="result result-s24">Bottom star Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Bottom Plus</span>
+<p class="result result-s25">Bottom plus Text Fonts loading...</p>
+<div class="RGITfonts"><span>Bottom arrow</span>
+<p class="result result-s26">Bottom arrow Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Cross Top &amp; Bottom</span>
+<p class="result result-s27">Cross top & bottom Text Fonts loading... </p>
+<div class="RGITfonts"><span>Stinky</span>
+<p class="stinky">Stinky Text Fonts loading...</p>
+<div class="RGITfonts"><span>Cross Above Below</span>
+<p class="crossAboveBelow">Ctoss above below Text Fonts loading...</p>
+</div>
+<div class="RGITfonts"><span>Arrow Below</span>
+<p class="arrowBelow">Arrow below text fonts loading...</p>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' type='text/javascript'></script>
+<script>
+  var default_text = "SOHAM SONU SOHAM"
+</script>
+<script src='https://cdn.thenitesharya.com/fonts-generator/embedgen-min.js?ver=2'></script>
+</div>
+</body>
+</html>
