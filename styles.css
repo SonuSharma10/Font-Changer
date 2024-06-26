@@ -1,68 +1,128 @@
-
-.bar{
-  height:10px;
+.bar {
+  height: 10px;
   background-color: blue;
 }
+
 .Input-box {
-position: relative;
--webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 38%);
--moz-box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
-border-radius: 5px;
-background: linear-gradient(130deg,#ff7a18,#afe02d 41.87%,#319197 76.85%);
-padding: 5px;
-width: 100%;
-box-sizing: border-box;
+  position: relative;
+  -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 38%);
+  -moz-box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
+  border-radius: 5px;
+  background: linear-gradient(130deg, #ff7a18, #afe02d 41.87%, #319197 76.85%);
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
 }
 #inputText {
-resize: none;
-border: none;
-outline: none;
-width: 98%;
-height: 55px;
-padding: 1%;
-font-size: 1.25em;
-text-align: center;
-font-family: open sans, sans-serif;
+  resize: none;
+  border: none;
+  outline: none;
+  width: 98%;
+  height: 55px;
+  padding: 1%;
+  font-size: 1.25em;
+  text-align: center;
+  font-family: open sans, sans-serif;
 }
-p{
-background: #fff;
-font-family: Arial Unicode MS, lucida grande, tahoma, verdana,arial, sans-serif;
-margin-bottom: 10px;
-border-radius: 7px;
-cursor: pointer;
-width: 100%;
-margin: 8px 0;
-display: block;
-border: 1px solid #ccc;
-box-shadow: inset 0 1px 3px #ddd;
-border-radius: 4px;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-padding-left: 20px;
-padding-right: 20px;
-padding-top: 12px;
-padding-bottom: 12px;
-font-size: 22px;
-padding-top: 12px;
-padding-bottom: 12px;
-}
-.btn{
-background-color: rgba(60,255,208,.9);
-border:none;
-height:30px;
-width: 60px;
 
-margin-left: 47%;
-border-radius: 7%;
-}
-.btn:hover{
-  background-color:  rgba(82,0,255,.9);
-}
-.flex-item{
-  justify-content: space-between;
-  margin-top: 30px;
-  background-color: rgba(60,255,208,.9);
+.btn {
+  background-color: rgba(60, 255, 208, 0.9);
+  border: none;
+  height: 30px;
+  width: 60px;
 
+  margin-left: 47%;
+  border-radius: 7%;
+}
+.btn:hover {
+  background-color: rgba(82, 0, 255, 0.9);
+}
+
+#projectfonts-text {
+  resize: none;
+  border: none;
+  outline: none;
+  width: 98%;
+  height: 55px;
+  padding: 1%;
+  font-size: 1.25em;
+  text-align: center;
+  font-family: open sans, sans-serif;
+}
+.projectfonts-text .clear {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #de0707;
+  font-size: 20px;
+  padding: 7px 20px;
+  line-height: 1.5;
+  background: transparent;
+  border: none;
+  z-index: 99999;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.RGITfonts {
+  position: relative;
+}
+.RGITfonts p {
+  background: #fff;
+  font-family: tahoma, verdana, arial, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 100%;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 22px;
+}
+
+.RGITfonts span {
+  color: #da2c2c;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+p.coped {
+  position: fixed;
+  width: 260px;
+  right: 0;
+  top: 50%;
+  background: #319197;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px 0 0 3px;
+  z-index: 99999;
+  box-shadow: 0px 8px 4px 0 rgba(238, 8, 8, 0.21);
+}
+
+p.copied span {
+  float: left;
+  width: 100%;
+}
+p.copied text {
+  background: transparent;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+div > div > h1 {
+  text-align: center;
+}
+.container {
+  background: linear-gradient(to left, #eeeeee, #a3c7d6);
 }
